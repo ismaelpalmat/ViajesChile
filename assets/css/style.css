@@ -1,3 +1,22 @@
 body{
     background-color: black;
 }
+a img{
+    width: 36px;
+    
+}
+
+/* #carouselExample img{
+  
+
+} */
+
+h2{
+    margin-top: 40px;
+}
+#parrafos i{
+    color: white;
+    background: rgb(155, 155, 255);
+    padding-inline: 150px;
+    text-align: center;
+}

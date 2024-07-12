@@ -16,25 +16,6 @@ h2{
     margin-top: 40px;
 }
 
-.card-img-top {
-    width: 100%;
-    height: 10vw;
-    object-fit: fill;
-    
-}
-.card{
-    color: white;
-    background: #0dcaf0;
-}
-
-.card img{
-
-    width: 100%;
-    height: 10vw;
-    object-fit: fill;
-    
-}
-
 #parrafos i{
     color: white;
     background: #0dcaf0;
@@ -44,22 +25,37 @@ h2{
     padding-bottom: 5px;
   
 }
-#parrafos p {
+#parrafos p{
     text-align: justify;
     text-justify: inter-word;
     font-size: small;
+    text-align: justify;
   }
 
-  .col-md-3{
-   margin: 10px;
-   width: 300px;
+.col-md-3{
+    color: white;
+    font-size: x-small;
+    background: #0dcaf0;
+    width: 300px;
+    margin: auto;
   }
 
-/* form{
-    font-weight: 400;
-    font-size: small;
-    font-display: light;
-} */
+.col-md-3 img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  
+#cardtexto{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+.nopadding {
+    padding: 0;
+    margin: 0;
+ }
+
 
 footer{
     margin-top: 30px;

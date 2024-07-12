@@ -24,7 +24,7 @@
                    
                     <li class="nav-item">
                         <a class="nav-link m-2 text-white" href="./Biografia.html">Inicio</a>
-                    </li>
+                    </li> 
                     <li class="nav-item">
                         <a class="nav-link m-2 text-white" href="./Media.html">Quiénes somos</a>
                     </li>
@@ -120,45 +120,65 @@
     </div>
         <br>
     <div class="row">
-            <div class="col-md-3 card border-dark rounded-0">
-                <div>
-                    <img src="./assets/img/card1.jpg" class="card-img-top rounded-0" alt="...">
-                    <div class="card-body mx-1">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>   
-            </div>
-            <div class="col-md-3 card border-dark rounded-0">
-                <div>
-                    <img src="./assets/img/card1.jpg" class="card-img-top rounded-0" alt="...">
-                    <div class="card-body mx-1">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>   
-            </div>
-            <div class="col-md-3 card border-dark rounded-0">
-                <div>
-                    <img src="./assets/img/card1.jpg" class="card-img-top rounded-0" alt="...">
-                    <div class="card-body mx-1">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>   
-            </div>
-            <div class="col-md-3 card border-dark rounded-0">
-                <div>
-                    <img src="./assets/img/card1.jpg" class="card-img-top rounded-0" alt="...">
-                    <div class="card-body mx-1">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>   
-            </div>
+        <!-- 1 -->
+        <div class="col-md-3 nopadding">
+            <img src="./assets/img/card1.jpg" class="" alt="...">
+                <div id="cardtexto">
+                    <h6>Lorem ipsum dolor sit</h6>
+                    <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit. 
+                        Etiam eu urna tempor, laoreet lacus eget, 
+                        consectetur diam. Suspendisse
+                        dignissim odio id faucibus bibendum.</p>
+                </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="col-md-3 nopadding mx-4">
+            <img src="./assets/img/card2.jpg" class="" alt="...">
+                <div id="cardtexto">
+                    <h6>Lorem ipsum dolor sit</h6>
+                    <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit. 
+                        Etiam eu urna tempor, laoreet lacus eget, 
+                        consectetur diam. Suspendisse
+                        dignissim odio id faucibus bibendum.</p>
+                </div>
+        </div>
+        <!-- 3 -->
+        <div class="col-md-3 nopadding">
+            <img src="./assets/img/card3.jpg" class="" alt="...">
+                <div id="cardtexto">
+                    <h6>Lorem ipsum dolor sit</h6>
+                    <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit. 
+                        Etiam eu urna tempor, laoreet lacus eget, 
+                        consectetur diam. Suspendisse
+                        dignissim odio id faucibus bibendum.</p>
+                </div>
+        </div>
+        <!-- 4 -->
+        <div class="col-md-3 nopadding mx-4">
+            <img src="./assets/img/card4.jpg" class="" alt="...">
+                <div id="cardtexto">
+                    <h6>Lorem ipsum dolor sit</h6>
+                    <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit. 
+                        Etiam eu urna tempor, laoreet lacus eget, 
+                        consectetur diam. Suspendisse
+                        dignissim odio id faucibus bibendum.</p>
+                </div>
+        </div>
 
     </div>
 </section>
-<!-- zzz -->
-<!-- form -->
- <h2 class="text-center text-white">CONTACTO</h2>
+<!-- fin cards -->
 
+<!-- form -->
+
+ <h2 class="text-center text-white">CONTACTO</h2>
+ 
+ <section>
  <form class="container">
     <div class="mb-3 text-white">
       <label for="exampleInputEmail1" class="form-label fw-light">Nombre</label>
@@ -173,15 +193,20 @@
     <div class="mb-3 text-white">
       <label class="fw-light" for="floatingTextarea2">Mensaje</label>
       <textarea class="form-control" placeholder="" id="floatingTextarea2" style="height: 100px"></textarea>
-
-      
+    </div>
     
 
-    </div>
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-      <button class="btn btn-info text-white me-md-2" type="button">Enviar</button>
+      <button id="enviarCorreo" class="btn btn-info text-white me-md-2" type="button" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Presiona para enviarnos tus comentarios">Enviar</button>
     </div>
-    
+
+    <!-- js! -->
+    <div id="emailAlert" class="d-none alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Sus datos han sido registrados correctamente</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+     <!-- js! -->
+
+    </section>
   </form>
 <!-- fin form -->
 <!-- footer -->
@@ -196,30 +221,9 @@
                 <i class="fa-brands fa-square-twitter fa-lg"></i>
                 <i class="fa-brands fa-square-facebook fa-lg"></i>
             </div>
- 
-
         </div>
     </section>
-    
  </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>

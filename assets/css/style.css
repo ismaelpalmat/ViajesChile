@@ -19,12 +19,14 @@ h2{
 #parrafos i{
     color: white;
     background: #0dcaf0;
-    text-align: center;
+    text-align: auto;
     padding-inline: 197px;
     padding-top: 5px;
     padding-bottom: 5px;
+
   
 }
+
 #parrafos p{
     text-align: justify;
     text-justify: inter-word;
@@ -38,12 +40,14 @@ h2{
     background: #0dcaf0;
     width: 300px;
     margin: auto;
+    
   }
 
 .col-md-3 img{
     height: 200px;
     width: 300px;
     margin-bottom: 10px;
+
   }
   
 #cardtexto{
@@ -54,8 +58,9 @@ h2{
 .nopadding {
     padding: 0;
     margin: 0;
+    margin-left: auto;
+    margin-top: 15px;
  }
-
 
 footer{
     margin-top: 30px;
